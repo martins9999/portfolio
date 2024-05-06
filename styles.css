@@ -561,7 +561,7 @@ a{text-decoration: none;}
     background-image: url(./assets/TheWalkingDead.png);
 }
 .img_projeto2 {
-    background-image: url(./assets/projeto2.jpg);   
+    background-image: url(./assets/jogoDaCobra.png);   
 }
 .img_projeto3 {
     background-image: url(./assets/projeto3.png); 
@@ -593,13 +593,24 @@ a{text-decoration: none;}
 .descricao_tec {
     width: 100%;
     height: 12%;
+    display: flex;
+    gap: 20px;
 }
 .tec_img {
     width: 10%;
     height: 100%;
     background-size: 100% 100%;
 }
-.tec_img1 {
+.img_html {
+    background-image: url(./assets/htm.png);
+}
+.img_css {
+    background-image: url(./assets/css.png);
+}
+.img_js {
+    background-image: url(./assets/javaScript.png);
+}
+.img_react {
     background-image: url(./assets/react.png);
 }
 .li_projetos {
